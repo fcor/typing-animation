@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Maven Pro';
+  src: local('Maven Pro'), url(./fonts/MavenPro-Regular.ttf) format('truetype');
+}
+body{
+  margin: 0;
+  font-family: 'Maven Pro', sans-serif;
+  height: 100vh;
+  background-color: #213040;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  color: #C7565A;
+  /* border: 1px solid red; */
+  width: 660px;
+}
+
+.text-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.baseText{
+  /* border: 1px solid yellow; */
+}
+
+.typed{
+  color: #C0FFA2;
+  width: 358px;
+}
+
+.and{
+  color: #C7565A !important;
+}
+
+.Typist .Cursor {
+  display: inline-block;
+  color: #C7565A;
+}
+.Typist .Cursor--blinking {
+  opacity: 1;
+  animation: blink 1s linear infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
