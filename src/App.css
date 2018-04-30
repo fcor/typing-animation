@@ -16,6 +16,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   font-size: 48px;
   color: #C7565A;
   /* border: 1px solid red; */
@@ -59,4 +60,9 @@ body{
   100% {
     opacity: 1;
   }
+}
+
+.anim svg {
+  width: 600px;
+  height: 200px;
 }
