@@ -16,9 +16,9 @@ class Killpop extends Component {
   render() {
     const style = {fill:'none',stroke:'#C8575B',strokeWidth:'4',strokeMiterLimit:'10'}
     return(
-      <div class="anim">
+      <div className="anim">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650.5 177.5">
-          <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="1" class="lines">
+          <g fill="none" fillRule="evenodd" stroke="currentColor" strokeWidth="1" className="lines">
             <path style={style} d="M69.682,84.791l38.818-43.745H65.149
               L38.942,77.107l0.217-40.814C38.684,18.057,23.786,3.412,5.437,3.408H5.422c-0.726,0-1.434,0.063-2.149,0.109v137.83h35.468
               l0.2-38.622l25.025,38.622h44.928L69.682,84.791z"/>
